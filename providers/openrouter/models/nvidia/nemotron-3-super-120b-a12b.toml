@@ -6,16 +6,17 @@ attachment = false
 reasoning = true
 temperature = true
 tool_call = true
-structured_output = false
+structured_output = true
 knowledge = "2024-04"
 open_weights = true
 
 [cost]
-input = 0.09
-output = 0.45
+input = 0.3
+output = 2.4
+cache_read = 0.15
 
 [limit]
-context = 262_144
+context = 1_048_576
 output = 262_144
 
 [modalities]

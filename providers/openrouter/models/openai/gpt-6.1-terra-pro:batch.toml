@@ -1,0 +1,24 @@
+name = "GPT-6.1 Terra Pro (batch)"
+family = "gpt"
+release_date = "2026-10-26"
+last_updated = "2026-10-26"
+attachment = true
+reasoning = true
+temperature = false
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.5
+output = 2.5
+cache_read = 0.025
+cache_write = 0.625
+
+[limit]
+context = 1_050_000
+output = 128_000
+
+[modalities]
+input = ["pdf", "image", "text"]
+output = ["text"]

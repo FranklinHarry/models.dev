@@ -10,12 +10,12 @@ omit = ["cost.cache_write"]
 field = "reasoning_details"
 
 [cost]
-input = 0.4
-output = 1.75
-cache_read = 0.08
+input = 0.54
+output = 1.98
+cache_read = 0.099
 
 [limit]
-context = 202_752
+context = 204_800
 output = 131_072
 
 [modalities]
