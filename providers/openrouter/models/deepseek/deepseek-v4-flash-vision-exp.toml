@@ -1,0 +1,23 @@
+name = "DeepSeek V4 Flash Vision Exp"
+family = "deepseek"
+release_date = "2026-08-21"
+last_updated = "2026-08-21"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0.44
+output = 1.32
+cache_read = 0.014
+
+[limit]
+context = 1_048_575
+output = 943_717
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

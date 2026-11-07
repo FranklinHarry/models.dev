@@ -6,8 +6,8 @@ structured_output = true
 from = "google/gemma-4-31b-it"
 
 [cost]
-input = 0.12
-output = 0.37
+input = 0.2
+output = 0.4
 
 [limit]
 context = 262_144
