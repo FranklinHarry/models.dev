@@ -7,7 +7,7 @@ reasoning = true
 temperature = true
 tool_call = true
 structured_output = true
-open_weights = false
+open_weights = true
 
 [cost]
 input = 1.5
@@ -15,7 +15,7 @@ output = 7.5
 
 [limit]
 context = 262_144
-output = 262_144
+output = 209_715
 
 [modalities]
 input = ["text", "image", "pdf"]

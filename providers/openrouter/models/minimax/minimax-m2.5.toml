@@ -4,18 +4,19 @@ structured_output = true
 
 [extends]
 from = "minimax/MiniMax-M2.5"
-omit = ["cost.cache_read", "cost.cache_write"]
+omit = ["cost.cache_write"]
 
 [interleaved]
 field = "reasoning_details"
 
 [cost]
-input = 0.15
-output = 1.15
+input = 0.27
+output = 0.95
+cache_read = 0.03
 
 [limit]
-context = 196_608
-output = 196_608
+context = 198_000
+output = 32_768
 
 [modalities]
 input = ["text"]

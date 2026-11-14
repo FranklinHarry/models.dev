@@ -8,11 +8,11 @@ from = "openai/gpt-4.1-nano"
 [cost]
 input = 0.1
 output = 0.4
-cache_read = 0.025
+cache_read = 0.03
 
 [limit]
 context = 1_047_576
-output = 32_768
+output = 942_818
 
 [modalities]
 input = ["image", "text", "pdf"]
