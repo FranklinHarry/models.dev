@@ -1,0 +1,23 @@
+name = "Kimi K3.1 Pro (batch)"
+family = "kimi"
+release_date = "2026-10-23"
+last_updated = "2026-10-23"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0.372
+output = 5.583
+cache_read = 0.1
+
+[limit]
+context = 1_048_576
+output = 943_718
+
+[modalities]
+input = ["text", "image", "video"]
+output = ["text"]
