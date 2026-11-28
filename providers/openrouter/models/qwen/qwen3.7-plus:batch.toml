@@ -1,0 +1,22 @@
+name = "Qwen3.7 Plus (batch)"
+family = "qwen"
+release_date = "2026-06-03"
+last_updated = "2026-06-03"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.23
+output = 0.92
+
+[limit]
+context = 262_144
+output = 131_072
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

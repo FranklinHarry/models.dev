@@ -1,0 +1,23 @@
+name = "MiMo-V2.6-Flash-MOPD"
+family = "mimo"
+release_date = "2026-11-23"
+last_updated = "2026-11-23"
+attachment = true
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = true
+
+[cost]
+input = 0.5
+output = 1
+cache_read = 0.05
+
+[limit]
+context = 1_048_576
+output = 32_768
+
+[modalities]
+input = ["text", "image", "video", "audio"]
+output = ["text"]

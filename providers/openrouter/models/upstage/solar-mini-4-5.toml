@@ -1,0 +1,23 @@
+name = "Solar Mini 4.5 (Preview)"
+family = "solar-mini"
+release_date = "2026-11-24"
+last_updated = "2026-11-24"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+structured_output = true
+open_weights = false
+
+[cost]
+input = 0.01
+output = 0.04
+cache_read = 0.001
+
+[limit]
+context = 524_288
+output = 131_072
+
+[modalities]
+input = ["text"]
+output = ["text"]

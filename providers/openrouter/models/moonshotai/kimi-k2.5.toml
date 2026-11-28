@@ -5,18 +5,18 @@ structured_output = true
 
 [extends]
 from = "moonshotai/kimi-k2.5"
+omit = ["cost.cache_read"]
 
 [interleaved]
 field = "reasoning_details"
 
 [cost]
-input = 0.4
-output = 1.9
-cache_read = 0.09
+input = 0.6
+output = 3
 
 [limit]
 context = 262_144
-output = 262_144
+output = 131_072
 
 [modalities]
 input = ["text", "image"]
